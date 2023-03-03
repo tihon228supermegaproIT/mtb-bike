@@ -1,0 +1,303 @@
+@font-face {
+    font-family: 'Arial-MT';
+    src: url("Arial-MT.woff"); /* Путь к файлу со шрифтом */
+   }
+  
+  * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+    scroll-behavior: smooth;
+    
+  }
+
+  header {
+    position: absolute;
+    width: 1920px;
+    height: 100px;
+    left: 0px;
+    top: 0px;
+    
+    background: #1A1917;  
+  }
+
+  .p{
+    position: absolute;
+    width: 20px;
+    height: 23px;
+    top: 38px;
+    left: 1855px;
+    
+    font-family: 'FontAwesome';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    /* identical to box height */
+    
+    
+    color: #FFFFFF;
+    background: url(p.png);
+    
+    
+
+
+  }
+
+  .logo{
+    position: absolute;
+    width: 165.1px;
+    height: 58.12px;
+    left: 52.63px;
+    top: 21px;
+    background: url(logo.png);
+    text-decoration: none;
+    
+   
+  }
+
+  .ul-home {
+    position: absolute;
+    width: 45px;
+    height: 17px;
+    left: 1465px;
+    top: 41px;
+    
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    /* identical to box height */
+    
+    
+    color: #fff;
+    text-decoration: none;
+    
+    
+    /* Inside auto layout */
+    
+   
+  }
+
+  .ul-about {
+    position: absolute;
+    width: 46px;
+    height: 17px;
+    left: 1560px;
+     top: 41px;
+    
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    /* identical to box height */
+    
+    
+    color: #FFFFFF;
+    text-decoration: none;
+    
+
+  }
+
+  .ul-team {
+    position: absolute;
+    width: 46px;
+    height: 17px;
+    left: 1656px;
+     top: 41px;
+    
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    /* identical to box height */
+    
+    
+    color: #FFFFFF;
+    text-decoration: none;
+  }
+
+  .ul-contact {
+    position: absolute;
+    width: 46px;
+    height: 17px;
+    left: 1746px;
+     top: 41px;
+    
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    /* identical to box height */
+    
+    
+    color: #FFFFFF; 
+    text-decoration: none;  
+  }
+
+  .banner {
+    position: absolute;
+    width: 1920px;
+    height: 1080px;
+    background: url(banner.svg);
+    top: 100px;  
+    
+
+  }
+
+  main {
+    position: absolute;
+    width: 1920px;
+    height: 2896px;
+    left: 0px;
+    top: 1180px;
+  }
+
+  .main-img{
+    position: absolute;
+    width: 1920px;
+    height: 965px;
+    left: 0px;
+    top: 0px; 
+    background: url(1.png);
+  }
+
+  .main-block-2 {
+    position: absolute;
+    width: 1920px;
+    height: 960px;
+    left: 0px;
+    top: 945px;
+    background: url(section2.png);
+     
+  }
+
+  .main-block-3{
+    position: absolute;
+    width: 1920px;
+    height: 971px;
+    left: 0px;
+    top: 1925px;
+    background: url(section3.png);
+    
+  }
+
+  footer{
+    position: absolute;
+    width: 1920px;
+    height: 1080px;
+    left: 0px;
+    top: 4076px;
+       
+  }
+
+  .ad-img{
+    position: absolute;
+    width: 1920px;
+    height: 1080px;
+    left: 0px;
+    top: 0px;
+    background: url(image8.png);
+     
+  }
+
+  .footer-title {
+
+    position: absolute;
+    width: 587px;
+    height: 196px;
+    left: 1031px;
+    top: 344px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 80px;
+    line-height: 98px;
+    /* identical to box height */
+    
+    
+    color: #FFFFFF;
+   
+  }
+
+  span{
+
+    position: absolute;
+    width: 527px;
+    height: 98px;
+    left: 1091px;
+    top: 442px;
+    
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 80px;
+    line-height: 98px;
+    /* identical to box height */
+    
+    
+    color: #FFFFFF;
+    
+  }
+
+  .footer-title {
+
+    position: absolute;
+width: 354px;
+height: 98px;
+left: 1171px;
+top: 344px;
+
+font-family: Arial, Helvetica, sans-serif;
+font-style: normal;
+font-weight: 200;
+font-size: 80px;
+line-height: 98px;
+/* identical to box height */
+
+
+color: #FFFFFF;
+    
+  }
+
+  .slider {
+
+    position: absolute;
+    width: 481px;
+    height: 100px;
+    left: 0px;
+    top: 980px;
+   
+    
+  }
+
+ .podval {
+    position: absolute;
+    width: 1920px;
+    height: 480px;
+    left: 0px;
+    top: 5056px;
+    background: url(5.png);
+  
+       
+  }
+
+  form{
+
+    position: absolute;
+    width: 1920px;
+    height: 432px;
+    left: 0px;
+    top: 5536px;
+    background: url(footer.png);
+  
+  }
+
